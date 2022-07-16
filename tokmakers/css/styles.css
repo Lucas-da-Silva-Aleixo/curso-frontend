@@ -135,3 +135,15 @@ footer {
     font-size: 19px;
     color: #201c1c;
 }
+
+@media (max-width: 425px) {
+    section nav,
+    section article {
+        width: 100%;
+    }
+
+    .container {
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+}
