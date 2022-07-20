@@ -13,9 +13,22 @@ h1 {
     color: #FE2C55;
 }
 
+#title-body {
+    margin: 33px 23px;
+    font-size: 32px;
+    color: #FE2C55;
+    text-align: center;
+}
+
 h2 {
     margin: 33px 23px;
     font-size: 22px;
+    color: #FE2C55;
+}
+
+h3 {
+    margin: 33px 23px;
+    font-size: 17px;
     color: #FE2C55;
 }
 
@@ -121,11 +134,24 @@ footer {
     color: #FE2C55;
 }
 
+.banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;   
+}
+
 .tiktok-cover-logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+
+.tiktok-cover-logo-index {
+    display: block;
+    width: 50%;
+    margin: 0 23px;
 }
 
 #list {
@@ -146,4 +172,36 @@ footer {
         padding-left: 1%;
         padding-right: 1%;
     }
+}
+
+#duvidas-frequentes {
+    background-color: #FFFFF7;
+}
+
+#botao {
+    background-color: #FE2C55;
+    color: #ffffff;
+    display: block;
+    padding: 10px 16px;
+    margin: 0 23px;
+    font-size: 20px;
+    width: 13%;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 20px;
+    border-radius: 12px;
+}
+
+#botao-cover {
+    background-color: #FE2C55;
+    color: #ffffff;
+    display: block;
+    padding: 10px 16px;
+    margin: 0 auto;
+    font-size: 20px;
+    width: 13%;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 20px;
+    border-radius: 12px;
 }
